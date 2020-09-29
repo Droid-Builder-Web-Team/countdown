@@ -1,7 +1,8 @@
 <template>
     <div v-if="loaded">
         <section class="text-3xl flex justify-center content-center flex-col mx-auto text-center">
-            <h1 class="m-8">Printed Parts Checklist Launch Date</h1>
+            <h1 class="" id="title">MrBaddeley Printed Droids</h1>
+            <h3 class="">Printed Parts Checklist</h3>
         </section>
             <section class="flex text-6xl justify-center content-center">
                 <div class="days mr-2 relative">
@@ -29,7 +30,7 @@
             </section>
             <section class="text-3xl flex justify-center content-center flex-col mx-auto text-center">
             <h2 v-if="!expired" class="m-8">Launching Soon</h2>
-            <h2 v-else>Click Here</h2>
+            <h2 v-else>It's live! Click here to get started!</h2>
             </section>
     </div>
 </template>
@@ -109,5 +110,8 @@
     .body{
         height:100vh;
         width:100%;
+    }
+    #title{
+        font-size:3rem;
     }
 </style>

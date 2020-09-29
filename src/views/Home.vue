@@ -19,6 +19,7 @@ import Counter from '@/components/Counter.vue'
             Counter
         }
     }
+    
 </script>
 
 <style lang="scss" scoped>
