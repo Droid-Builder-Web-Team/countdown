@@ -23,7 +23,7 @@
   import HelloWorld from './views/Home.vue'
 
   export default {
-    name: 'App',
+    name: 'Countdown',
     components: {
       HelloWorld
     }

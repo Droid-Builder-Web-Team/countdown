@@ -30,7 +30,7 @@
             </section>
             <section class="text-3xl flex justify-center content-center flex-col mx-auto text-center">
             <h2 v-if="!expired" class="m-8">Launching Soon</h2>
-            <h2 v-else>It's live! Click here to get started!</h2>
+            <h2 v-else>It's live! <a v-bind:href="'https://checklist.mbprinteddroids.com'">Click here</a> to get started!</h2>
             </section>
     </div>
 </template>
