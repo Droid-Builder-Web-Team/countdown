@@ -4,10 +4,10 @@
         :year="2020"
         :month="10"
         :date="1"
-        :hour="23"
-        :minute="59"
-        :second="59"
-        :millisecond="31"
+        :hour="19"
+        :minute="0"
+        :second="0"
+        :millisecond="0"
         />
     </div>
 </template>
